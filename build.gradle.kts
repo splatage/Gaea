@@ -17,8 +17,8 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_1_17
+    targetCompatibility = JavaVersion.VERSION_1_17
 }
 
 group = "org.polydev.gaea"
@@ -27,20 +27,20 @@ version = versionObj
 
 dependencies {
     compileOnly("org.jetbrains:annotations:20.1.0") // more recent.
-    compileOnly("org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:1.18.2-R0.1-SNAPSHOT")
     implementation("com.googlecode.json-simple:json-simple:1.1")
     implementation("commons-io:commons-io:2.4")
     implementation("org.apache.commons:commons-rng-core:1.3")
     implementation("net.jafama:jafama:2.3.2")
     implementation("co.aikar:taskchain-bukkit:3.7.2")
     implementation("com.esotericsoftware:reflectasm:1.11.9")
-    implementation("org.bstats:bstats-bukkit:1.7")
+    implementation("org.bstats:bstats-bukkit:3.0")
 
     // JUnit.
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.0")
 
-    testImplementation("org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT")
+    testImplementation("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
 }
 
 tasks.test {
