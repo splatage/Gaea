@@ -14,6 +14,8 @@ repositories {
     maven { url = uri("https://repo.codemc.org/repository/maven-public") }
     maven { url = uri("https://papermc.io/repo/repository/maven-public/") }
     maven { url = uri("https://repo.aikar.co/content/groups/aikar/") }
+    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
+    maven { url = uri("https://oss.sonatype.org/content/repositories/central/") }
 }
 
 java {
