@@ -27,7 +27,7 @@ version = versionObj
 
 dependencies {
     compileOnly("org.jetbrains:annotations:20.1.0") // more recent.
-    compileOnly("org.spigotmc:1.18.2-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot:1.19-R0.1-SNAPSHOT")
     implementation("com.googlecode.json-simple:json-simple:1.1")
     implementation("commons-io:commons-io:2.4")
     implementation("org.apache.commons:commons-rng-core:1.3")
