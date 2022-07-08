@@ -17,8 +17,8 @@ repositories {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_17
-    targetCompatibility = JavaVersion.VERSION_1_17
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 group = "org.polydev.gaea"
