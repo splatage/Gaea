@@ -34,7 +34,7 @@ dependencies {
     implementation("net.jafama:jafama:2.3.2")
     implementation("co.aikar:taskchain-bukkit:3.7.2")
     implementation("com.esotericsoftware:reflectasm:1.11.9")
-    implementation("org.bstats:bstats-bukkit:3.0")
+    implementation("org.bstats:bstats-bukkit:3.0.0")
 
     // JUnit.
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.0")
